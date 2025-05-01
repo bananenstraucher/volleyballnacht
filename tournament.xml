@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<tournier>
+        <GruppeA>
+            <Teilnehmer> <!--Alle Teilnehmer Gruppe A-->
+                <team>Magnus für DE</team>
+                <team>10B</team>
+                <team>The Goats</team>
+                <team>Radieselbar 187</team>
+            </Teilnehmer>
+        </GruppeA>
+
+        <GruppeB>
+            <Teilnehmer> <!--Alle Teilnehmer Gruppe B-->
+                <team>Shadow Masters</team>
+                <team>Lehrer</team>
+                <team>KaiAusmSport69</team>
+                <team>11</team>
+            </Teilnehmer>
+        </GruppeB>
+
+
+
+        <Spiele>
+            <Spiel1> <!-- Spiele laufen parallel Ab-->
+                <GroupA Status="offen">
+                    <Team>10B</Team>
+                    <Team>The Goats</Team>
+                </GroupA>
+                <GroupB Status="offen">
+                    <Team>Lehrer</Team>
+                    <Team>KaiAusmSport69</Team>
+                </GroupB>
+            </Spiel1>
+
+            <Spiel2> <!-- Spiele laufen parallel Ab-->
+                <GroupA Status="geschlossen">
+                    <Team>Radieselbar 187</Team>
+                    <Team>Magnus für DE</Team>
+                </GroupA>
+                <GroupB Status="geschlossen">
+                    <Team>11</Team>
+                    <Team>Shadow Smashers</Team>
+                </GroupB>
+            </Spiel2>
+
+            <Spiel3> <!-- Spiele laufen parallel Ab-->
+                <GroupA Status="geschlossen">
+                    <Team>Magnus für DE</Team>
+                    <Team>10B</Team>
+                </GroupA>
+                <GroupB Status="geschlossen">
+                    <Team>Shadow Smashers</Team>
+                    <Team>Lehrer</Team>
+                </GroupB>
+            </Spiel3>
+
+            <Spiel4> <!-- Spiele laufen parallel Ab-->
+                <GroupA Status="geschlossen">
+                    <Team>The Goats</Team>
+                    <Team>Radieselbar 187</Team>
+                </GroupA>
+                <GroupB Status="geschlossen">
+                    <Team>KaiAusmSport69</Team>
+                    <Team>11</Team>
+                </GroupB>
+            </Spiel4>
+
+            <Spiel5> <!-- Spiele laufen parallel Ab-->
+                <GroupA Status="geschlossen">
+                    <Team>Radieselbar 187</Team>
+                    <Team>10B</Team>
+                </GroupA>
+                <GroupB Status="geschlossen">
+                    <Team>11</Team>
+                    <Team>Lehrer</Team>
+                </GroupB>
+            </Spiel5>
+
+            <Spiel6> <!-- Spiele laufen parallel Ab-->
+                <GroupA Status="geschlossen">
+                    <Team>The Goats</Team>
+                    <Team>Magnus für DE</Team>
+                </GroupA>
+                <GroupB Status="geschlossen">
+                    <Team>KaiAusmSPort69</Team>
+                    <Team>Shadow Smashers</Team>
+                </GroupB>
+            </Spiel6>
+
+
+
+            <Spiel7> <!-- Viertelfinale-->  <!-- Spiele laufen parallel Ab-->
+                <GroupA Status="geschlossen">
+                    <Team></Team> <!--2nd A-->
+                    <Team></Team> <!--3rd A-->
+                </GroupA>
+                <GroupB Status="geschlossen">
+                    <Team></Team> <!--2nd B-->
+                    <Team></Team> <!--3rd B-->
+                </GroupB>
+            </Spiel7>
+
+            <Spiel8> <!-- Halbfinale-->  <!-- Spiele laufen parallel Ab-->
+                <GroupA Status="geschlossen">
+                    <Team></Team> <!--1st A-->
+                    <Team></Team> <!--winner Spiel 7 A-->
+                </GroupA>
+                <GroupB Status="geschlossen">
+                    <Team></Team> <!--1st B-->
+                    <Team></Team> <!--winner Spiel 7 B-->
+                </GroupB>
+            </Spiel8>
+
+            <Spiel9 Status="geschlossen"> <!-- Finale-->
+                <Team></Team> <!--winner Spiel 8 A-->
+                <Team></Team> <!--winner Spiel 8 B-->
+            </Spiel9>
+        </Spiele>
+</tournier>
